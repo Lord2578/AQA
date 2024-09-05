@@ -55,6 +55,18 @@ public class Task3 {
         Collections.sort(sortedList);
         System.out.println("Відсортований список: " + sortedList);
 
+        // e) Print the elements of the list;
+
+        System.out.println("Елементи HashSet: " + sortedList);
+
+        // Make up the situation for ArrayIndexOutOfBoundsException. Catch it and display the explanation for your custom case.
+
+        try {
+            System.out.println("Доступ до 10-го елемента масиву (якого не існує): " + reversedArray[10]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Error: Вийшли за межі масиву, 10-го елемента немає.");
+        }
+
     }
 
     private static int[] reverseArray(int[] array) {
