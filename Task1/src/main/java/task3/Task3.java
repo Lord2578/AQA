@@ -1,8 +1,6 @@
 package task3;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.*;
 
 public class Task3 {
 
@@ -37,6 +35,25 @@ public class Task3 {
 
         hashSet.add(99.99);
         System.out.println("Після додавання елемента 99.99: " + hashSet);
+
+        // b) Remove an element from the list;
+
+        hashSet.remove(99.99);
+        System.out.println("Після видалення елемента 99.99: " + hashSet);
+
+        // c) Replace an element in the list;
+
+        if (hashSet.contains(1.0)) {
+            hashSet.remove(1.0);
+            hashSet.add(100.0);
+        }
+        System.out.println("Після заміни елемента 1.0 на 100.0: " + hashSet);
+
+        // d) Sort the list in alphabetical order;
+
+        List<Double> sortedList = new ArrayList<>(hashSet);
+        Collections.sort(sortedList);
+        System.out.println("Відсортований список: " + sortedList);
 
     }
 
