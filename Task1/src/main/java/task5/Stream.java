@@ -11,7 +11,7 @@ public class Stream {
         }
         // a) Генерація 10 випадкових об'єктів Person
         List<Person> people = generateRandomPeople(count);
-        
+
         System.out.println("--- Згенеровані Об'єкти ---");
         people.forEach(System.out::println);
 
