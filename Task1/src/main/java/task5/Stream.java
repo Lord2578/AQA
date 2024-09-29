@@ -11,8 +11,7 @@ public class Stream {
         }
         // a) Генерація 10 випадкових об'єктів Person
         List<Person> people = generateRandomPeople(count);
-
-        // Вивід згенерованих об'єктів
+        
         System.out.println("--- Згенеровані Об'єкти ---");
         people.forEach(System.out::println);
 
@@ -21,7 +20,6 @@ public class Stream {
                         .thenComparing(Person::getName))
                 .collect(Collectors.toList());
 
-        // Вивід відсортованих об'єктів
         System.out.println("\n--- Відсортовані Об'єкти ---");
         sortedPeople.forEach(System.out::println);
 
@@ -31,7 +29,6 @@ public class Stream {
                 .filter(Person::isMarried)
                 .collect(Collectors.toList());
 
-        // Вивід відфільтрованих об'єктів
         System.out.println("\n--- Відфільтровані Об'єкти (age > 25 та married == true) ---");
         filteredPeople.forEach(System.out::println);
 
@@ -45,12 +42,10 @@ public class Stream {
                 })
                 .toList();
 
-        // Вивід зібраних основних полів
         System.out.println("\n--- Зібрані Основні Поля (name та age) ---");
         mainFieldsList.forEach(System.out::println);
     }
 
-    // Метод для генерації випадкових осіб
     private static List<Person> generateRandomPeople(int count) {
         List<Person> people = new ArrayList<>();
         String[] names = {"John", "Jane", "Mark", "Lucy", "Michael", "Emma", "Robert", "Olivia", "David", "Sophia"};
@@ -61,7 +56,7 @@ public class Stream {
 
         for (int i = 0; i < count; i++) {
             String name = names[random.nextInt(names.length)];
-            int age = 20 + random.nextInt(30); // Вік від 20 до 49
+            int age = 20 + random.nextInt(30);
             boolean married = random.nextBoolean();
             String city = cities[random.nextInt(cities.length)];
             String state = states[random.nextInt(states.length)];
