@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Task8 SUITE">
+    <test name="Task8_test" thread-count="10" parallel="methods">
+        <parameter name="num1" value="10"/>
+        <parameter name="num2" value="5"/>
+        <parameter name="expectedSum" value="15"/>
+        <packages>
+            <package name="task8.*"/>
+        </packages>
+    </test>
+</suite>
