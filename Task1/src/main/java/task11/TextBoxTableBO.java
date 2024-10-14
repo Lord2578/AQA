@@ -41,20 +41,17 @@ public class TextBoxTableBO {
 
     public void verifyTable(String name, String email, String currentAddress, String permanentAddress) throws InterruptedException {
         Thread.sleep(4000);
-
-        // Перевіряємо, що є таблиця з вихідними даними
+        
         WebElement outputContainer = driver.findElement(By.id("output"));
 
-        // Знаходимо всі елементи <p>, які містять результати
         List<WebElement> rows = outputContainer.findElements(By.tagName("p"));
 
-        // Перевіряємо, чи знайдено правильні значення
         String newName = rows.get(0).getText().replace("Name:", "").trim();
         String newEmail = rows.get(1).getText().replace("Email:", "").trim();
         String newCurrentAddress = rows.get(2).getText().replace("Current Address :", "").trim();
         String newPermanentAddress = rows.get(3).getText().replace("Permananet Address :", "").trim();
 
-        // Перевіряємо, що введені дані збігаються з даними у таблиці
+
         Assert.assertEquals(newName, name, "Name does not match.");
         Assert.assertEquals(newEmail, email, "Email does not match.");
         Assert.assertEquals(newCurrentAddress, currentAddress, "Current address does not match.");
