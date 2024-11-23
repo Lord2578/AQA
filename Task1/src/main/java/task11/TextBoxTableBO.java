@@ -1,48 +1,62 @@
 package task11;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.time.Duration;
 import java.util.List;
 
 import static task11.DriverProvider.driver;
 
 public class TextBoxTableBO {
     TextBoxTablePO textBoxTablePO = new TextBoxTablePO();
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
     public TextBoxTableBO gototextboxpage() {
         DriverProvider.getDriver().get("https://demoqa.com/text-box");
         return this;
     }
 
     public TextBoxTableBO fillUpText(String name, String email, String currentAddress, String permanentAddress) {
-        Assert.assertTrue(textBoxTablePO.getNameInput().isDisplayed(), "Cant find name input");
+        Assert.assertTrue(textBoxTablePO.getNameInput().isDisplayed(), "Can't find name input");
         textBoxTablePO.getNameInput().sendKeys(name);
 
-        Assert.assertTrue(textBoxTablePO.getEmailInput().isDisplayed(), "Cant find email input");
+        Assert.assertTrue(textBoxTablePO.getEmailInput().isDisplayed(), "Can't find email input");
         textBoxTablePO.getEmailInput().sendKeys(email);
 
-        Assert.assertTrue(textBoxTablePO.getCurAddressInput().isDisplayed(), "Cant find current address input");
+        Assert.assertTrue(textBoxTablePO.getCurAddressInput().isDisplayed(), "Can't find current address input");
         textBoxTablePO.getCurAddressInput().sendKeys(currentAddress);
 
-        Assert.assertTrue(textBoxTablePO.getPermAddressInput().isDisplayed(), "Cant find permanent address input");
+        Assert.assertTrue(textBoxTablePO.getPermAddressInput().isDisplayed(), "Can't find permanent address input");
         textBoxTablePO.getPermAddressInput().sendKeys(permanentAddress);
 
         return this;
     }
 
+    public TextBoxTableBO tapSubmitBtn() {
+        WebElement submitButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("submit")));
 
-    public TextBoxTableBO tapSubmitBtn() throws InterruptedException {
-        Assert.assertTrue(textBoxTablePO.tapSubmitBtn().isDisplayed(), "Cant find Submit button");
-        Thread.sleep(4000);
-        textBoxTablePO.tapSubmitBtn().click();
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({ block: 'center' });", submitButton);
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        // Натискання кнопки
+        Assert.assertTrue(submitButton.isDisplayed(), "Can't find Submit button");
+        submitButton.click();
+
         return this;
     }
 
-    public void verifyTable(String name, String email, String currentAddress, String permanentAddress) throws InterruptedException {
-        Thread.sleep(4000);
-        
-        WebElement outputContainer = driver.findElement(By.id("output"));
+    public void verifyTable(String name, String email, String currentAddress, String permanentAddress) {
+        WebElement outputContainer = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("output")));
 
         List<WebElement> rows = outputContainer.findElements(By.tagName("p"));
 
@@ -50,7 +64,6 @@ public class TextBoxTableBO {
         String newEmail = rows.get(1).getText().replace("Email:", "").trim();
         String newCurrentAddress = rows.get(2).getText().replace("Current Address :", "").trim();
         String newPermanentAddress = rows.get(3).getText().replace("Permananet Address :", "").trim();
-
 
         Assert.assertEquals(newName, name, "Name does not match.");
         Assert.assertEquals(newEmail, email, "Email does not match.");

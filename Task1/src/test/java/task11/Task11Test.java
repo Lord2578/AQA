@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class Task11Test {
     @Test
-    void addRowTest() throws InterruptedException {
+    void addRowTest() {
         //Test Data
         String name = "Vitalik";
         String email = "bodnar.vietal@gmail.com";

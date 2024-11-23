@@ -36,17 +36,16 @@ public class Task10TestManager {
         driver.get("https://demoqa.com/elements");
 
         WebElement textBoxMenuItem = driver.findElement(By.xpath("//*[@id=\"item-0\"]"));
-        Thread.sleep(2000);
         textBoxMenuItem.click();
 
         WebElement textBoxName = driver.findElement(By.xpath("//*[@id=\"userName\"]"));
         Assert.assertTrue(textBoxName.isDisplayed(), "Text Box Name is not visible.");
-        Thread.sleep(3000);
         textBoxName.sendKeys("some text");
+
+        Thread.sleep(2000);
 
         WebElement btnSubmit = driver.findElement(By.xpath("//*[@id=\"submit\"]"));
         Assert.assertTrue(btnSubmit.isDisplayed(), "Submit button is not visible.");
-        Thread.sleep(4000);
         btnSubmit.click();
 
     }
