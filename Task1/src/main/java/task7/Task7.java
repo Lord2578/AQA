@@ -29,7 +29,7 @@ public class Task7 {
         person.setAddress(address);
         session.save(person);
 
-        // Create Residents for OneToMany relationship
+        // OneToMany relationship
         Resident resident1 = new Resident();
         resident1.setName("Resident 1");
         resident1.setAddress(address);
@@ -40,7 +40,7 @@ public class Task7 {
         resident2.setAddress(address);
         session.save(resident2);
 
-        // Create Project for ManyToMany relationship
+        // ManyToMany relationship
         Project project = new Project();
         project.setProjectName("Project A");
         session.save(project);
@@ -50,18 +50,18 @@ public class Task7 {
 
         session.getTransaction().commit();
 
-        // Read: Retrieve person from database
+        // Read
         Person readPerson = session.get(Person.class, person.getId());
         System.out.println("Read Person: " + readPerson);
 
-        // Update: Modify the person's name and save changes
+        // Update
         session.beginTransaction();
         readPerson.setName("John Smith");
         session.update(readPerson);
         session.getTransaction().commit();
         System.out.println("Updated Person: " + readPerson);
 
-        // Delete: Delete a resident
+        // Delete
         session.beginTransaction();
         session.delete(resident1);
         session.getTransaction().commit();

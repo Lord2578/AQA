@@ -13,7 +13,7 @@ import org.hibernate.Session;
 public class Task6 {
     public static void main(String[] args) {
         Session session = HybernateManager.getSessionFactory().openSession();
-        session.beginTransaction();  // Початок транзакції для створення
+        session.beginTransaction();
 
         // Create
         Person person = new Person();
@@ -21,28 +21,28 @@ public class Task6 {
         person.setName("Harry");
         Long id = (Long) session.save(person);
 
-        session.getTransaction().commit();  // Завершення транзакції після створення
+        session.getTransaction().commit();
 
         // Read
-        session.beginTransaction();  // Початок транзакції для читання
+        session.beginTransaction();
         Person readPerson = session.get(Person.class, id);
         System.out.println("Read Person: " + readPerson);
-        session.getTransaction().commit();  // Завершення транзакції після читання
+        session.getTransaction().commit();
 
         // Update
-        session.beginTransaction();  // Початок транзакції для оновлення
+        session.beginTransaction();
         person.setAge(12);
         session.update(person);
-        session.getTransaction().commit();  // Завершення транзакції після оновлення
+        session.getTransaction().commit();
 
         // Delete
-        session.beginTransaction();  // Початок транзакції для видалення
+        session.beginTransaction();
         session.delete(readPerson);
-        session.getTransaction().commit();  // Завершення транзакції після видалення
+        session.getTransaction().commit();
 
         // Перевірка чи об'єкт було видалено
         readPerson = session.get(Person.class, id);
-        System.out.println("Read after delete: " + readPerson);  // Це повинно бути null, якщо видалено
+        System.out.println("Read after delete: " + readPerson);
 
         HybernateManager.shutdown();
     }
