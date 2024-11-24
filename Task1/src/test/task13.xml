@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Task13Suite">
+    <test name="Task13Test">
+        <parameter name="num1" value="10" />
+        <parameter name="num2" value="5" />
+        <parameter name="expectedSum" value="15" />
+        <classes>
+            <class name="task13.Task13Test" />
+        </classes>
+    </test>
+</suite>

@@ -15,6 +15,7 @@ public class DriverProvider {
     public static WebDriver getDriver() {
         if (driver == null) {
             driver = initDriver();
+            driver.manage().window().maximize();
         }
         return driver;
     }

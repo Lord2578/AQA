@@ -94,3 +94,375 @@
 2024-10-29 15:39:04 INFO  CustomerTest13Listeners - info message
 2024-10-29 15:39:04 INFO  CustomerTest13Listeners - info message
 2024-10-29 15:39:04 INFO  CustomerTest13Listeners - info message
+2024-11-23 15:48:37 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-23 15:48:37 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-23 15:48:39 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-23 15:48:39 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-23 15:48:39 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-23 15:48:39 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-23 15:48:39 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-23 15:48:39 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-23 15:48:39 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-23 15:48:39 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6459f4ea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-23 15:48:40 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:35:26 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:49 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:39:50 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 12:41:09 INFO  CustomerTest13Listeners - info message
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Execution Started
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Suite Started: Default Suite
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-11-24 14:17:36 ERROR CustomerTest13Listeners - Test Failed: parameterizedSumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Taking screenshot for test: parameterizedSumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Saved HTML to file: test_results/parameterizedSumTest_1732450656781.html
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Suite Finished
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Test Suite Finished: Default Suite
+2024-11-24 14:17:36 INFO  CustomerTest13Listeners - Execution Finished
+2024-11-24 14:22:32 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 14:22:32 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 14:22:34 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 14:22:34 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 14:22:34 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:22:34 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 14:22:34 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 14:22:34 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 14:22:34 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 14:22:35 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 14:22:35 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:23:29 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 14:23:29 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 14:23:30 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 14:23:30 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 14:23:30 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:23:30 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 14:23:30 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 14:23:30 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 14:23:31 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 14:23:31 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 14:23:31 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:24:43 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 14:24:43 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 14:24:44 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 14:24:44 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 14:24:44 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:24:44 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 14:24:44 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 14:24:44 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 14:24:44 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 14:24:45 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 14:24:45 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:26:05 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 14:26:05 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 14:26:06 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 14:26:06 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 14:26:06 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:26:06 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 14:26:06 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 14:26:06 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 14:26:07 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 14:26:07 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5d7dd549] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 14:26:07 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:28:19 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 14:28:19 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 14:28:20 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 14:28:20 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 14:28:20 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:28:20 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 14:28:20 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 14:28:20 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 14:28:20 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 14:28:21 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 14:28:21 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:29:16 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 14:29:16 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 14:29:17 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 14:29:17 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 14:29:17 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:29:17 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 14:29:17 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 14:29:17 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 14:29:17 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 14:29:18 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 14:29:18 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:37:16 INFO  CustomerTest13Listeners - Execution Started
+2024-11-24 14:37:16 INFO  CustomerTest13Listeners - Test Suite Started: Task13Suite
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: parameterizedSumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: parameterizedSumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: parameterizedSumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: parameterizedSumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Suite Finished
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Test Suite Finished: Task13Suite
+2024-11-24 14:37:17 INFO  CustomerTest13Listeners - Execution Finished
+2024-11-24 14:56:36 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 14:56:36 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 14:56:37 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 14:56:37 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 14:56:37 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:56:37 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 14:56:37 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 14:56:37 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 14:56:37 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 14:56:38 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 14:56:38 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:59:57 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 14:59:57 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 14:59:58 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 14:59:58 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 14:59:58 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 14:59:58 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 14:59:58 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 14:59:58 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 14:59:58 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 14:59:59 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 14:59:59 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:03:09 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 15:03:09 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 15:03:10 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 15:03:11 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 15:03:11 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:03:11 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 15:03:11 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 15:03:11 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 15:03:11 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 15:03:11 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@fddd7ae] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 15:03:11 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:03:51 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 15:03:51 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 15:03:52 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 15:03:52 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 15:03:52 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:03:52 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 15:03:52 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 15:03:52 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 15:03:52 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 15:03:53 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 15:03:53 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:04:27 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 15:04:27 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 15:04:28 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 15:04:29 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 15:04:29 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:04:29 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 15:04:29 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 15:04:29 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 15:04:29 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 15:04:29 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 15:04:29 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:04:57 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 15:04:57 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 15:04:58 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 15:04:58 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 15:04:58 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:04:58 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 15:04:58 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 15:04:58 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 15:04:58 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 15:04:58 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 15:04:59 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:05:41 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2024-11-24 15:05:42 INFO  Environment - HHH000206: hibernate.properties not found
+2024-11-24 15:05:43 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-11-24 15:05:43 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-11-24 15:05:43 INFO  pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 15:05:43 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-24 15:05:43 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-24 15:05:43 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-11-24 15:05:43 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 15:05:43 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@350323a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-24 15:05:44 INFO  pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/ITStepAQA]
+2024-11-24 18:04:36 INFO  CustomerTest13Listeners - Execution Started
+2024-11-24 18:04:36 INFO  CustomerTest13Listeners - Test Suite Started: Surefire suite
+2024-11-24 18:04:36 INFO  CustomerTest13Listeners - Before Method Invocation: setup
+2024-11-24 18:04:39 INFO  CustomerTest13Listeners - After Method Invocation: setup
+2024-11-24 18:04:39 INFO  CustomerTest13Listeners - Test Started: task10Test
+2024-11-24 18:04:39 INFO  CustomerTest13Listeners - Before Method Invocation: task10Test
+2024-11-24 18:04:44 INFO  CustomerTest13Listeners - After Method Invocation: task10Test
+2024-11-24 18:04:44 INFO  CustomerTest13Listeners - Test Passed: task10Test
+2024-11-24 18:04:44 INFO  CustomerTest13Listeners - Test Started: addRowFailTest
+2024-11-24 18:04:44 INFO  CustomerTest13Listeners - Before Method Invocation: addRowFailTest
+2024-11-24 18:04:52 INFO  CustomerTest13Listeners - After Method Invocation: addRowFailTest
+2024-11-24 18:04:52 ERROR CustomerTest13Listeners - Test Failed: addRowFailTest
+2024-11-24 18:04:52 INFO  CustomerTest13Listeners - Taking screenshot for test: addRowFailTest
+2024-11-24 18:04:52 INFO  CustomerTest13Listeners - Saved HTML to file: test_results/addRowFailTest_1732464292720.html
+2024-11-24 18:04:52 ERROR CustomerTest13Listeners - Test Failed: addRowFailTest
+2024-11-24 18:04:52 INFO  CustomerTest13Listeners - Taking screenshot for test: addRowFailTest
+2024-11-24 18:04:52 INFO  CustomerTest13Listeners - Saved HTML to file: test_results/addRowFailTest_1732464292903.html
+2024-11-24 18:04:53 INFO  CustomerTest13Listeners - Test Suite Finished
+2024-11-24 18:04:53 INFO  CustomerTest13Listeners - Test Suite Finished: Surefire suite

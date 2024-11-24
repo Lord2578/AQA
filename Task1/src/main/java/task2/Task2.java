@@ -1,43 +1,41 @@
-/// V 1: Basic Arithmetic Operations
-//Objective: To understand and perform basic arithmetic operations in Java using primitive types.
-//Instructions:
-//Declare two int variables.
-//Assign values to the variables and perform basic arithmetic operations (e.g., addition, subtraction, multiplication, division).
-//Print the results of each operation to the console.
-
 package task2;
 
 public class Task2 {
-    public int sum;  // Змінна для зберігання результату суми
-    public int subs;
-    public int multi;
 
-    public void sum(int num1, int num2) {
-        sum = num1 + num2;
+    // Метод для додавання
+    public int sum(int num1, int num2) {
+        return num1 + num2;
     }
 
-    public void subs(int num1, int num2) {
-        subs = num1 - num2;  // Використовуємо поле класу
+    // Метод для віднімання
+    public int subs(int num1, int num2) {
+        return num1 - num2;
     }
 
-    public void multi(int num1, int num2) {
-        multi = num1 * num2;  // Використовуємо поле класу
+    // Метод для множення
+    public int multi(int num1, int num2) {
+        return num1 * num2;
     }
 
+    // Метод для ділення
+    public int divide(int num1, int num2) {
+        if (num2 == 0) {
+            throw new ArithmeticException("Division by zero is not allowed!");
+        }
+        return num1 / num2;
+    }
 
     public static void main(String[] args) {
+        // Створюємо об'єкт Task2
+        Task2 task = new Task2();
+
         int num1 = 10;
         int num2 = 5;
 
-        int sum = num1 + num2;
-        int subs = num1 - num2;
-        int multi = num1 * num2;
-        int divide = num1 / num2;
-
-        System.out.println("Addition: " + num1 + " + " + num2 + " = " + sum);
-        System.out.println("Subtraction: " + num1 + " - " + num2 + " = " + subs);
-        System.out.println("Multiplication: " + num1 + " * " + num2 + " = " + multi);
-        System.out.println("Division: " + num1 + " / " + num2 + " = " + divide);
+        // Викликаємо методи та виводимо результат
+        System.out.println("Addition: " + num1 + " + " + num2 + " = " + task.sum(num1, num2));
+        System.out.println("Subtraction: " + num1 + " - " + num2 + " = " + task.subs(num1, num2));
+        System.out.println("Multiplication: " + num1 + " * " + num2 + " = " + task.multi(num1, num2));
+        System.out.println("Division: " + num1 + " / " + num2 + " = " + task.divide(num1, num2));
     }
-
 }
