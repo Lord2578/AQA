@@ -25,7 +25,7 @@ public class Task13Test {
 
     @Test(dataProvider = "sumDataProvider")
     public void sumTest(int num1, int num2, int expectedResult) {
-        int actualSum = task2.sum(num1, num2); // Використовуємо повернене значення
+        int actualSum = task2.sum(num1, num2); 
         Assert.assertEquals(actualSum, expectedResult, "Unexpected result for sum");
     }
 
@@ -41,7 +41,7 @@ public class Task13Test {
 
     @Test(dataProvider = "subDataProvider")
     public void subTest(int num1, int num2, int expectedResult) {
-        int actualSubs = task2.subs(num1, num2); // Використовуємо повернене значення
+        int actualSubs = task2.subs(num1, num2);
         Assert.assertEquals(actualSubs, expectedResult, "Unexpected result for subs");
     }
 
@@ -57,14 +57,14 @@ public class Task13Test {
 
     @Test(dataProvider = "multiDataProvider")
     public void multiTest(int num1, int num2, int expectedResult) {
-        int actualMulti = task2.multi(num1, num2); // Використовуємо повернене значення
+        int actualMulti = task2.multi(num1, num2);
         Assert.assertEquals(actualMulti, expectedResult, "Unexpected result for multi");
     }
 
     @Test
     @Parameters({"num1", "num2", "expectedSum"})
     public void parameterizedSumTest(int num1, int num2, int expectedSum) {
-        int actualSum = task2.sum(num1, num2); // Використовуємо повернене значення
+        int actualSum = task2.sum(num1, num2);
         Assert.assertEquals(actualSum, expectedSum, "Unexpected result for parameterized sum");
     }
 }
