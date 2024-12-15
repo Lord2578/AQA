@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "4355208b-ccdd-4d82-9380-55210ba9ca8c",
+		"_postman_id": "Your_PostmanID",
 		"name": "trello_aqa",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "40434570"
@@ -173,7 +173,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"name\": \"Doing\",\r\n  \"idBoard\": \"O6EUqD6W\",\r\n  \"key\": \"fbe1cefe8af41c16b600e686a81463b3\",\r\n  \"token\": \"ATTA1bcad645e112ce8be70a01abf0c94422cebb2e8190958d66f7a6012d82279ea6AB4FED6E\"\r\n}",
+					"raw": "{\r\n  \"name\": \"Doing\",\r\n  \"idBoard\": \"O6EUqD6W\",\r\n  \"key\": \"Your_APIKEY\",\r\n  \"token\": \"Your_TOKEN\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -317,7 +317,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"idList\": \"675e03d2783462b9128ad35b\",\r\n  \"key\": \"fbe1cefe8af41c16b600e686a81463b3\",\r\n  \"token\": \"ATTA1bcad645e112ce8be70a01abf0c94422cebb2e8190958d66f7a6012d82279ea6AB4FED6E\"\r\n}",
+					"raw": "{\r\n  \"idList\": \"675e03d2783462b9128ad35b\",\r\n  \"key\": \"Your_APIKEY\",\r\n  \"token\": \"Your_TOKEN\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
