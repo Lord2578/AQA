@@ -25,7 +25,7 @@ public class Task13Test {
 
     @Test(dataProvider = "sumDataProvider")
     public void sumTest(int num1, int num2, int expectedResult) {
-        int actualSum = task2.sum(num1, num2); 
+        int actualSum = task2.sum(num1, num2);
         Assert.assertEquals(actualSum, expectedResult, "Unexpected result for sum");
     }
 

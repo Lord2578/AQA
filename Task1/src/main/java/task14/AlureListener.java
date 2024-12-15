@@ -13,7 +13,10 @@ public class AlureListener implements ITestListener, IInvokedMethodListener {
     @Override
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
         IInvokedMethodListener.super.afterInvocation(method, testResult);
-        makeScreenShot();
+        if(testResult.getStatus() == ITestResult.FAILURE){
+            attachDOM();
+            makeScreenShot();
+        }
     }
 
     @Override
@@ -62,5 +65,11 @@ public class AlureListener implements ITestListener, IInvokedMethodListener {
         byte[] result = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
         System.out.println("Make screenshot");
         return result;
+    }
+
+    @Attachment(value="Page source DOM", type="text/html")
+    private String attachDOM(){
+        System.out.println("Attached DOM");
+        return getDriver().getPageSource();
     }
 }

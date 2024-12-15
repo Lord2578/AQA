@@ -466,3 +466,86 @@
 2024-11-24 18:04:52 INFO  CustomerTest13Listeners - Saved HTML to file: test_results/addRowFailTest_1732464292903.html
 2024-11-24 18:04:53 INFO  CustomerTest13Listeners - Test Suite Finished
 2024-11-24 18:04:53 INFO  CustomerTest13Listeners - Test Suite Finished: Surefire suite
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Execution Started
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Suite Started: Task13Suite
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: multiTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: parameterizedSumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: parameterizedSumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: parameterizedSumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: parameterizedSumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: subTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: setUp
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Started: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Before Method Invocation: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - After Method Invocation: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Passed: sumTest
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Suite Finished
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Test Suite Finished: Task13Suite
+2024-12-14 19:13:26 INFO  CustomerTest13Listeners - Execution Finished
